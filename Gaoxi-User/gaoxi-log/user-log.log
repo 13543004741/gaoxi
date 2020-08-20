@@ -1,0 +1,462 @@
+2020-08-10 10:24:02.958  INFO 10800 --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2020-08-10 10:24:02.968  INFO 10800 --- [main] c.g.user.service.UserServiceImplTest     : Starting UserServiceImplTest on DESKTOP-CRU8Q3B with PID 10800 (started by DELL in E:\my_project\SpringBoot-Dubbo-Docker-Jenkins\Gaoxi-User)
+2020-08-10 10:24:02.968  INFO 10800 --- [main] c.g.user.service.UserServiceImplTest     : The following profiles are active: test
+2020-08-10 10:24:03.050  INFO 10800 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@436bc36: startup date [Mon Aug 10 10:24:03 CST 2020]; root of context hierarchy
+2020-08-10 10:24:04.529  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60ed7066] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:04.584  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'gaoxiUserApplication' of type [com.gaoxi.user.GaoxiUserApplication$$EnhancerBySpringCGLIB$$4b436a18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:04.770  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:04.782  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$93c1c196] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:04.789  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:04.827  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:04.930  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:04.938  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$42e113c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:04.954  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.211  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.223  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.224  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userDAO' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.226  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userDAO' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.228  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoxi.user.service.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.552  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.dubbo-io.dubbo.springboot.DubboProperties' of type [io.dubbo.springboot.DubboProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.554  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.dubbo.springboot.DubboAutoConfiguration' of type [io.dubbo.springboot.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$cb9810ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.560  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestApplicationConfig' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.564  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestRegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.567  INFO 10800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestProtocolConfig' of type [com.alibaba.dubbo.config.ProtocolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 10:24:05.681  INFO 10800 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Export dubbo service com.gaoxi.facade.user.UserService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 10:24:05.682  INFO 10800 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Export dubbo service com.gaoxi.facade.user.UserService to url dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 10:24:05.682  INFO 10800 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Register dubbo service com.gaoxi.facade.user.UserService url dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0 to registry registry://172.17.0.2:2181/com.alibaba.dubbo.registry.RegistryService?application=user-provider&dubbo=2.5.3&pid=10800&registry=zookeeper&timestamp=1597026245578, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 10:24:05.807  WARN 10800 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl' defined in file [E:\my_project\SpringBoot-Dubbo-Docker-Jenkins\Gaoxi-User\target\classes\com\gaoxi\user\service\UserServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+2020-08-10 10:24:05.815  INFO 10800 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2020-08-10 10:24:05.823 ERROR 10800 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl' defined in file [E:\my_project\SpringBoot-Dubbo-Docker-Jenkins\Gaoxi-User\target\classes\com\gaoxi\user\service\UserServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) [junit-rt.jar:na]
+Caused by: com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:289) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:195) ~[dubbo-2.5.3.jar:2.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 38 common frames omitted
+Caused by: com.alibaba.dubbo.remoting.RemotingException: Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.<init>(NettyServer.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287) ~[dubbo-2.5.3.jar:2.5.3]
+	... 56 common frames omitted
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:20880
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:303) ~[netty-3.2.5.Final.jar:na]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.doOpen(NettyServer.java:94) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:67) ~[dubbo-2.5.3.jar:2.5.3]
+	... 63 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_112]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.bind(NioServerSocketPipelineSink.java:148) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleServerSocket(NioServerSocketPipelineSink.java:100) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:74) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.bind(Channels.java:468) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.bind(AbstractChannel.java:192) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap$Binder.channelOpen(ServerBootstrap.java:348) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.fireChannelOpen(Channels.java:176) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:142) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:90) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:282) ~[netty-3.2.5.Final.jar:na]
+	... 65 common frames omitted
+
+2020-08-10 10:24:05.829 ERROR 10800 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4e3958e7] to prepare test instance [com.gaoxi.user.service.UserServiceImplTest@7e87ef9e]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl' defined in file [E:\my_project\SpringBoot-Dubbo-Docker-Jenkins\Gaoxi-User\target\classes\com\gaoxi\user\service\UserServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 24 common frames omitted
+Caused by: com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:289) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:195) ~[dubbo-2.5.3.jar:2.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 38 common frames omitted
+Caused by: com.alibaba.dubbo.remoting.RemotingException: Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.<init>(NettyServer.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287) ~[dubbo-2.5.3.jar:2.5.3]
+	... 56 common frames omitted
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:20880
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:303) ~[netty-3.2.5.Final.jar:na]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.doOpen(NettyServer.java:94) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:67) ~[dubbo-2.5.3.jar:2.5.3]
+	... 63 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_112]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.bind(NioServerSocketPipelineSink.java:148) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleServerSocket(NioServerSocketPipelineSink.java:100) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:74) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.bind(Channels.java:468) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.bind(AbstractChannel.java:192) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap$Binder.channelOpen(ServerBootstrap.java:348) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.fireChannelOpen(Channels.java:176) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:142) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:90) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:282) ~[netty-3.2.5.Final.jar:na]
+	... 65 common frames omitted
+
+2020-08-10 10:24:05.841  INFO 10800 --- [DubboShutdownHook] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 10:24:05.842  INFO 10800 --- [DubboShutdownHook] c.a.d.r.support.AbstractRegistryFactory  :  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 10:24:05.842  INFO 10800 --- [DubboShutdownHook] c.a.d.rpc.protocol.dubbo.DubboProtocol   :  [DUBBO] Unexport service: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 10:24:05.842  INFO 10800 --- [DubboShutdownHook] c.a.d.rpc.protocol.injvm.InjvmProtocol   :  [DUBBO] Unexport service: injvm://127.0.0.1/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,findRoles,deleteRole,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=10800&revision=1.0.0&side=provider&timestamp=1597026245589&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 13:47:53.447  INFO 19056 --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2020-08-10 13:47:53.458  INFO 19056 --- [main] com.gaoxi.user.dao.UserDAOTest           : Starting UserDAOTest on DESKTOP-CRU8Q3B with PID 19056 (started by DELL in E:\my_project\SpringBoot-Dubbo-Docker-Jenkins\Gaoxi-User)
+2020-08-10 13:47:53.459  INFO 19056 --- [main] com.gaoxi.user.dao.UserDAOTest           : The following profiles are active: test
+2020-08-10 13:47:53.528  INFO 19056 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1fdf1c5: startup date [Mon Aug 10 13:47:53 CST 2020]; root of context hierarchy
+2020-08-10 13:47:54.597  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a2c8830] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:54.639  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'gaoxiUserApplication' of type [com.gaoxi.user.GaoxiUserApplication$$EnhancerBySpringCGLIB$$448281e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:54.788  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:54.799  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$8d00d960] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:54.807  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:54.833  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:54.924  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:54.931  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3c202b90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:54.947  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.143  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.157  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.158  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userDAO' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.161  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userDAO' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.163  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.gaoxi.user.service.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.329  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.dubbo-io.dubbo.springboot.DubboProperties' of type [io.dubbo.springboot.DubboProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.330  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.dubbo.springboot.DubboAutoConfiguration' of type [io.dubbo.springboot.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$c4d72875] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.334  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestApplicationConfig' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.339  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestRegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.341  INFO 19056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestProtocolConfig' of type [com.alibaba.dubbo.config.ProtocolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 13:47:55.464  INFO 19056 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Export dubbo service com.gaoxi.facade.user.UserService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 13:47:55.465  INFO 19056 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Export dubbo service com.gaoxi.facade.user.UserService to url dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 13:47:55.465  INFO 19056 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Register dubbo service com.gaoxi.facade.user.UserService url dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0 to registry registry://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=user-provider&dubbo=2.5.3&pid=19056&registry=zookeeper&timestamp=1597038475350, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 13:47:55.582  WARN 19056 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl' defined in file [E:\my_project\SpringBoot-Dubbo-Docker-Jenkins\Gaoxi-User\target\classes\com\gaoxi\user\service\UserServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+2020-08-10 13:47:55.588  INFO 19056 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2020-08-10 13:47:55.595 ERROR 19056 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl' defined in file [E:\my_project\SpringBoot-Dubbo-Docker-Jenkins\Gaoxi-User\target\classes\com\gaoxi\user\service\UserServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) [junit-rt.jar:na]
+Caused by: com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:289) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:195) ~[dubbo-2.5.3.jar:2.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 38 common frames omitted
+Caused by: com.alibaba.dubbo.remoting.RemotingException: Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.<init>(NettyServer.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287) ~[dubbo-2.5.3.jar:2.5.3]
+	... 56 common frames omitted
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:20880
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:303) ~[netty-3.2.5.Final.jar:na]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.doOpen(NettyServer.java:94) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:67) ~[dubbo-2.5.3.jar:2.5.3]
+	... 63 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_112]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.bind(NioServerSocketPipelineSink.java:148) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleServerSocket(NioServerSocketPipelineSink.java:100) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:74) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.bind(Channels.java:468) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.bind(AbstractChannel.java:192) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap$Binder.channelOpen(ServerBootstrap.java:348) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.fireChannelOpen(Channels.java:176) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:142) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:90) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:282) ~[netty-3.2.5.Final.jar:na]
+	... 65 common frames omitted
+
+2020-08-10 13:47:55.598 ERROR 19056 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@2e377400] to prepare test instance [com.gaoxi.user.dao.UserDAOTest@45843650]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) [junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl' defined in file [E:\my_project\SpringBoot-Dubbo-Docker-Jenkins\Gaoxi-User\target\classes\com\gaoxi\user\service\UserServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-1.5.8.RELEASE.jar:1.5.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 24 common frames omitted
+Caused by: com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0) Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:289) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:195) ~[dubbo-2.5.3.jar:2.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 38 common frames omitted
+Caused by: com.alibaba.dubbo.remoting.RemotingException: Failed to bind NettyServer on /172.28.15.171:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.<init>(NettyServer.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287) ~[dubbo-2.5.3.jar:2.5.3]
+	... 56 common frames omitted
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:20880
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:303) ~[netty-3.2.5.Final.jar:na]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.doOpen(NettyServer.java:94) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:67) ~[dubbo-2.5.3.jar:2.5.3]
+	... 63 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_112]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_112]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_112]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.bind(NioServerSocketPipelineSink.java:148) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleServerSocket(NioServerSocketPipelineSink.java:100) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:74) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.bind(Channels.java:468) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.bind(AbstractChannel.java:192) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap$Binder.channelOpen(ServerBootstrap.java:348) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.fireChannelOpen(Channels.java:176) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:142) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:90) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:282) ~[netty-3.2.5.Final.jar:na]
+	... 65 common frames omitted
+
+2020-08-10 13:47:55.610  INFO 19056 --- [DubboShutdownHook] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 13:47:55.610  INFO 19056 --- [DubboShutdownHook] c.a.d.r.support.AbstractRegistryFactory  :  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 13:47:55.611  INFO 19056 --- [DubboShutdownHook] c.a.d.rpc.protocol.dubbo.DubboProtocol   :  [DUBBO] Unexport service: dubbo://172.28.15.171:20880/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2020-08-10 13:47:55.611  INFO 19056 --- [DubboShutdownHook] c.a.d.rpc.protocol.injvm.InjvmProtocol   :  [DUBBO] Unexport service: injvm://127.0.0.1/com.gaoxi.facade.user.UserService?anyhost=true&application=user-provider&dubbo=2.5.3&interface=com.gaoxi.facade.user.UserService&methods=findMenus,createAdminUser,updatePermissionOfRole,login,deleteRole,findRoles,deleteLocation,batchUpdateUserState,findPermissions,findLocations,modifyLocation,findUsers,updateMenuOfRole,createLocation,register&pid=19056&revision=1.0.0&side=provider&timestamp=1597038475365&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
