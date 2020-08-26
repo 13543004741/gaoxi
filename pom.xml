@@ -182,6 +182,12 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Nexus</name>
+			<url>http://210.14.129.98:6031/nexus/content/groups/public/</url>
+		</repository>
+	</distributionManagement>
 
 </project>
